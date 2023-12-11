@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* header */
+ header{
+    margin: 20px 10% 0 10%;
+ }
+ .titleContainer{
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: top;
+
+ }
+
+.mdhlTitle{
+    color: bisque;
+}
+.subdivtulo{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    right: 40px;
+    background-color: azure;
+    
+}
+
+.title{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    color: aliceblue;
+}
+ 
+/* main */
+
+main{
+    margin: 20px 10% 0 10%;
+}
+
+.menu{
+    margin: 0 0 0 10%;
+    width: 30%;
+    display: inline-block;
+}
+
+.item{
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.content{
+    display: inline-block;
+}
+
+.contentTitle{
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.contentText{
+    font-size: 15px;
+    text-indent: 10px;
+    margin-top: 20px;
+}
